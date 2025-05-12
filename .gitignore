@@ -1,0 +1,13 @@
+// git ignore file for a Node.js backend project
+# Ignore node_modules
+node_modules/
+# Ignore build output
+dist/
+# Ignore environment variables
+.env
+# Ignore logs
+logs/
+# Ignore coverage reports
+coverage/
+# Ignore IDE specific files
+.idea/
