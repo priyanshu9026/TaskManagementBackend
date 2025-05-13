@@ -10,7 +10,7 @@ const profileRoutes = require("./routes/profileRoutes");
 
 app.use(express.json());
 app.use(cors({
-  origin: "https://tasksmanagemen.netlify.app",
+  origin: ["http://localhost:3000","https://tasksmanagemen.netlify.app"],
   credentials: true,
 }));
 
